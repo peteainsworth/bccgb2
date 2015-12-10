@@ -1,0 +1,208 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+/************************************************************
+		
+						Branding Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-branding-wrapper .zone-wrapper .zone-branding-wrapper .clearfix
+> #zone-branding .zone .zone-branding .clearfix .container-12
+> #region-branding .grid-12 region region-branding
+> .region-inner .region-branding-inner			
+
+*************************************************************/
+
+#block-user-login #edit-actions {
+    display:inline-block;
+	margin-right: 14px;
+}
+#block-user-login #create-new-account {
+    margin-top: 6px;
+}
+ #block-user-login {
+    width: auto;
+}
+#toboggan-login {
+    margin-top: 18px;
+    padding:4px 20px 20px;
+}
+#block-superfish-2 {
+    width:640px;
+}
+/************************************************************
+		
+						Menu Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-menu-wrapper .zone-wrapper .zone-menu-wrapper .clearfix
+> #zone-menu .zone .zone-menu .clearfix .container-12
+> #region-menu .grid-12 region region-menu
+> .region-inner .region-menu-inner						
+
+*************************************************************/
+
+.sf-menu.sf-style-simple-centre-aligned a,
+.sf-menu.sf-style-simple-centre-aligned a:visited  {
+	font: bold 12px/1.5 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 1.4em 1.5em;
+}
+.sf-menu.sf-style-simple-centre-aligned li li a,
+.sf-menu.sf-style-simple-centre-aligned.sf-vertical a {
+  padding: 1em 1.5em;
+}
+.lt-ie9 .sf-menu.sf-style-simple-centre-aligned a, .lt-ie9 .sf-menu.sf-style-simple-centre-aligned a:visited,
+.lt-ie9 .sf-menu.sf-style-simple a, .lt-ie9 .sf-menu.sf-style-simple a:visited {
+    padding: 0.7em 1.8em 0.7em 1em;
+    background-color:#43803C;
+}
+.lt-ie9 .sf-menu.sf-style-simple-centre-aligned a:hover,
+.lt-ie9 .sf-menu.sf-style-simple a:hover {
+    color: #304713;
+}
+
+/************************************************************
+		
+						Header Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-header-wrapper .zone-wrapper .zone-header-wrapper .clearfix
+> #zone-header .zone .zone-header .clearfix .container-12
+> #region-header-first .grid-12 region region-header-first
+> .region-inner .region-header-first-inner						
+
+*************************************************************/
+#block-views-premium-member-logos-block-1 .view-header h3 {
+	margin-left: 22px;
+}
+/************************************************************
+							jcarousel
+*************************************************************/
+.jcarousel-container-horizontal {
+	padding: 0 20px;
+}
+.jcarousel-prev-horizontal {
+	left: -10px;
+}
+.jcarousel-next-horizontal {
+	right: -10px;
+}
+.jcarousel-container-horizontal {
+	width: 892px;
+}
+.jcarousel-clip-horizontal,
+.view-premium-member-logos ul.jcarousel {
+	width: 892px
+}
+/************************************************************
+
+ Content Zone
+
+ IDs & Classes:
+ > #section-content .section .section-content
+ > #zone-content-wrapper .zone-wrapper .zone-content-wrapper .clearfix
+ > #zone-content .zone .zone-content .clearfix .container-12
+ > #region-content .grid-12 region region-content
+ > .region-inner .region-content-inner
+
+ *************************************************************/
+/************************************************************
+Event page
+*************************************************************/
+#crm-container .event-info .clear {
+    clear: none !important;
+}
+.page-civicrm-event-info #crm-container .crm-submit-buttons, .page-civicrm-event-info #crm-container .action-link {
+    float:left;
+    margin: 4px 30px 20px 2px;
+}
+.page-civicrm-event-info .event-info .crm-section {
+    float:left;
+    width:47%;
+}
+.page-civicrm-event-info #crm-container .event_map-section .content {
+    margin-left: 0;
+}
+#crm-container label {
+    font-weight:bold;
+}
+.page-civicrm-event-info .event-info .event_description-section {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 2px dashed #CCCCCC;
+}
+.page-civicrm-event-info #crm-container .crm-actions-ribbon {
+    position: absolute;
+    top: -64px; 
+}
+/************************************************************
+                      Corporate members page
+*************************************************************/
+.page-corporate-members- #region-content {
+    width: 640px;
+}
+.page-corporate-members .view-corporate-members ul li {
+    margin: 0 8px 20px;
+}
+.page-corporate-members- .views-field-image-URL {
+    float:right;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+/************************************************************
+ Profile page
+ *************************************************************/
+.page-user .grid-6 .views-field-image-URL {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+/************************************************************
+Front page                       
+*************************************************************/
+#block-views-publications-block-1 .content {
+        -moz-column-count: 1;
+        -moz-column-gap: 0;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0;
+        column-count: 1;
+        column-gap: 0;
+}
+#block-views-publications-block-1 .view-content .views-row {
+    margin-top: 16px;
+    margin-bottom: 0;
+    
+}
+#block-views-publications-block-1 .view-content .views-row-first{
+    margin-top: 2px;
+}
+.front .container-12 .grid-9 {
+    width:668px;
+}
+.front .container-12 .grid-3 {
+    margin-top:52px;
+    width:250px;
+}
+.front #block-system-main {
+    width: 620px;
+}
+/************************************************************
+ Flex slider about us and membership    
+ *************************************************************/
+.context-about-us .container-12 .grid-9,
+.context-membership .container-12 .grid-9 {
+    width: 260px;
+}
+.context-about-us .container-12 .grid-3,
+.context-membership .container-12 .grid-3  {
+    width: 660px;
+}
+#flexslider_views_slideshow_front_page_slideshow-page_1,
+#flexslider_views_slideshow_front_page_slideshow-page_2,
+#flexslider_views_slideshow_front_page_slideshow-block_1 {
+    margin-left: 0;
+}

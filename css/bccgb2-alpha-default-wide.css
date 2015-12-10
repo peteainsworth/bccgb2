@@ -1,0 +1,98 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/************************************************************
+        
+                        Branding Zone
+                        
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-branding-wrapper .zone-wrapper .zone-branding-wrapper .clearfix
+> #zone-branding .zone .zone-branding .clearfix .container-12
+> #region-branding .grid-12 region region-branding
+> .region-inner .region-branding-inner          
+
+*************************************************************/
+#block-superfish-2 {
+    width:740px;
+}
+/************************************************************
+		
+						Header Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-header-wrapper .zone-wrapper .zone-header-wrapper .clearfix
+> #zone-header .zone .zone-header .clearfix .container-12
+> #region-header-first .grid-12 region region-header-first
+> .region-inner .region-header-first-inner						
+
+*************************************************************/
+#block-views-premium-member-logos-block-1 .view-header h3 {
+	margin-left: 68px;
+}
+/************************************************************
+							jcarousel
+*************************************************************/
+.jcarousel-container-horizontal {
+	padding: 0 40px;
+}
+.jcarousel-prev-horizontal {
+	left: 10px;
+}
+.jcarousel-next-horizontal {
+	right: 10px;
+}
+.jcarousel-container-horizontal {
+	width: 1040px;
+}
+.jcarousel-clip-horizontal,
+.view-premium-member-logos ul.jcarousel {
+	width: 1040px;
+}
+/************************************************************
+
+ Content Zone
+
+ IDs & Classes:
+ > #section-content .section .section-content
+ > #zone-content-wrapper .zone-wrapper .zone-content-wrapper .clearfix
+ > #zone-content .zone .zone-content .clearfix .container-12
+ > #region-content .grid-12 region region-content
+ > .region-inner .region-content-inner
+
+ *************************************************************/
+.context-about-us .container-12 .grid-9, .context-membership .container-12 .grid-9 {
+    width: 490px;
+}
+.page-corporate-members- #region-content {
+    margin-left: 130px;
+}
+.page-corporate-members .view-corporate-members ul li {
+    margin: 0 30px 24px;
+}
+/************************************************************
+                           front page
+*************************************************************/
+.front #block-system-main {
+	border-top: medium none;
+    clear: left;
+}
+.front h1 {
+    font-size: 16px;
+    margin-right: 14px;
+    padding: 18px 0px 10px 20px;
+}
+.front .container-12 .grid-9 {
+    width:auto;
+}
+.front .container-12 .grid-3 {
+    width:460px;
+}
+/************************************************************
+Event page
+*************************************************************/
+.page-civicrm-event-info .event-info .crm-section {
+    width:38%;
+}
+.page-civicrm-event-info .event-info .event_description-section {
+    width:58%;
+}

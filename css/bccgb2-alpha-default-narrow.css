@@ -1,0 +1,139 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+/************************************************************
+		
+						Branding Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-branding-wrapper .zone-wrapper .zone-branding-wrapper .clearfix
+> #zone-branding .zone .zone-branding .clearfix .container-12
+> #region-branding .grid-12 region region-branding
+> .region-inner .region-branding-inner			
+
+*************************************************************/
+#block-user-login #edit-actions {
+    display:inline-block;
+}
+#block-user-login #create-new-account {
+    margin-top: 6px;
+}
+ #block-user-login {
+    width: auto;
+}
+#toboggan-login {
+    margin-top: 18px;
+    padding:4px 20px 20px;
+}
+#block-superfish-2 {
+    width:420px;
+}
+/************************************************************
+		
+						Menu Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-menu-wrapper .zone-wrapper .zone-menu-wrapper .clearfix
+> #zone-menu .zone .zone-menu .clearfix .container-12
+> #region-menu .grid-12 region region-menu
+> .region-inner .region-menu-inner						
+
+*************************************************************/
+.sf-menu.sf-style-simple-centre-aligned a,
+.sf-menu.sf-style-simple-centre-aligned a:visited  {
+	font: bold 11px/1.5 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 1.4em 0.9em;
+}
+.sf-menu.sf-style-simple-centre-aligned li li a,
+.sf-menu.sf-style-simple-centre-aligned.sf-vertical a {
+  padding: 1em 0.9em;
+}
+/************************************************************
+		
+						Header Zone
+						
+IDs & Classes: 
+> #section-header .section .section-header
+> #zone-header-wrapper .zone-wrapper .zone-header-wrapper .clearfix
+> #zone-header .zone .zone-header .clearfix .container-12
+> #region-header-first .grid-12 region region-header-first
+> .region-inner .region-header-first-inner						
+
+*************************************************************/
+#block-views-premium-member-logos-block-1 .view-header h3 {
+	margin-left: 50px;
+}
+/************************************************************
+							jcarousel
+*************************************************************/
+.jcarousel-container-horizontal {
+	width: 596px;
+}
+.jcarousel-clip-horizontal,
+.view-premium-member-logos ul.jcarousel {
+	width: 596px;
+}
+/************************************************************
+
+ Content Zone
+
+ IDs & Classes:
+ > #section-content .section .section-content
+ > #zone-content-wrapper .zone-wrapper .zone-content-wrapper .clearfix
+ > #zone-content .zone .zone-content .clearfix .container-12
+ > #region-content .grid-12 region region-content
+ > .region-inner .region-content-inner
+
+*************************************************************/
+#block-views-publications-block-1 .content {
+        -moz-column-count: 2;
+        -moz-column-gap: 0;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 0;
+        column-count: 2;
+        column-gap: 0;
+}
+#block-views-publications-block-1 .view-content .views-row {
+    margin-top: 16px;
+    margin-bottom: 0;
+    
+}
+#block-views-publications-block-1 .view-content .views-row-first{
+    margin-top: 2px;
+}
+.page-corporate-members- #region-content {
+    width: 400px;
+}
+.page-corporate-members- #region-sidebar-second {
+    width: 280px;
+}
+
+/************************************************************
+Flexslider regions
+*************************************************************/
+/* Layout */
+.front .container-12 .grid-9,
+.front .container-12 .grid-3,
+.context-membership .container-12 .grid-9,
+.context-membership .container-12 .grid-3,
+.context-about-us .container-12 .grid-9,
+.context-about-us .container-12 .grid-3 {
+    width: 100%;
+}
+#flexslider_views_slideshow_front_page_slideshow-page_1,
+#flexslider_views_slideshow_front_page_slideshow-page_2,
+#flexslider_views_slideshow_front_page_slideshow-block_1 {
+    margin-left: 30px;
+}
+/************************************************************
+ Profile page
+ *************************************************************/
+.page-user .grid-6 .views-field-image-URL {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 14px;
+}
