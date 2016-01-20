@@ -647,7 +647,10 @@ Front page
 }
 .view-past-events .views-field-body {
 }
-#crm-container .event_description-section .action-link {
+#crm-container .crm-actionlinks-top .action-link {
     float: none;
     margin: 0 30px 20px 2px;
+}
+#crm-container .event_description-section {
+    clear: both;
 }
